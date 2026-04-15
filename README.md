@@ -30,24 +30,24 @@ There is no frontend in this project. The API can be tested using Swagger or Pos
 
 ```text
 auth_system_api/
-│
-├── app/
-│   ├── main.py
-│   ├── config.py
-│   ├── database.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── auth.py
-│   ├── dependencies.py
-│   ├── crud.py
-│   └── routes/
-│       ├── auth_routes.py
-│       ├── user_routes.py
-│       └── stats_routes.py
-│
-├── .env.example
-├── requirements.txt
-└── README.md
+|
++-- app/
+|   +-- main.py
+|   +-- config.py
+|   +-- database.py
+|   +-- models.py
+|   +-- schemas.py
+|   +-- auth.py
+|   +-- dependencies.py
+|   +-- crud.py
+|   +-- routes/
+|       +-- auth_routes.py
+|       +-- user_routes.py
+|       +-- stats_routes.py
+|
++-- .env.example
++-- requirements.txt
++-- README.md
 ```
 
 ## How to Run the Project
@@ -116,7 +116,7 @@ http://127.0.0.1:8000/docs
 
 ## How to Test
 
-I can test the API from Swagger:
+The API can be tested from Swagger:
 
 1. Open `http://127.0.0.1:8000/docs`
 2. Use `/register` to create a user.
